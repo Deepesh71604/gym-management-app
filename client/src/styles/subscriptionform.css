@@ -1,0 +1,70 @@
+/* src/styles/SubscriptionForm.css */
+
+.subscription-container {
+    max-width: 500px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.subscription-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscription-container label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+}
+
+.subscription-container input[type="text"],
+.subscription-container input[type="number"],
+.subscription-container textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #ccd1d9;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.subscription-container input[type="text"]:focus,
+.subscription-container input[type="number"]:focus,
+.subscription-container textarea:focus {
+    border-color: #007bff;
+    background-color: #e6f3ff;
+    outline: none;
+}
+
+.subscription-container textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.subscription-container button[type="submit"] {
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 1rem;
+}
+
+.subscription-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.subscription-container button[type="submit"]:active {
+    transform: scale(0.98);
+}

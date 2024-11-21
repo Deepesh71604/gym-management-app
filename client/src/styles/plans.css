@@ -1,0 +1,67 @@
+/* src/styles/Plans.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.plans-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.plans-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.plans-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.plans-container li {
+    background-color: #f8f9fc;
+    border: 1px solid #e0e3ea;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plans-container li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.plan-title {
+    color: #007bff;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+.plan-description {
+    color: #555;
+    margin: 0.3rem 0;
+}
+
+.plan-price {
+    font-size: 1.2rem;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.plan-duration {
+    color: #17a2b8;
+    font-style: italic;
+}
